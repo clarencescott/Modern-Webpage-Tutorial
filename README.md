@@ -46,7 +46,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 1. **Clone the repository:** 
    bash
-   git clone https://github.com/your-username/web-development-beginners-guide.git
+   git clone https://github.com/clarencescott/repo.git
 
 
 
