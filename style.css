@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 216, 255);
+    color: #333;
+}
+/*This is the header styling section of my webpage*/
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin:0 10px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/* This is the main styling section of my webpage*/
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+section{
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px black;
+}
+h2{
+    color: #333;
+}
+/*This is the footer styling section of my webpage*/
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
