@@ -1,4 +1,4 @@
-** Web Development Beginner's Guide**
+# Web Development Beginner's Guide
 PLEASE READ THIS ENTIRE DOCUMENT FIRST
 
 Welcome to the Web Development Beginner's Guide! This repository is designed to help beginners learn the fundamentals of web development, including HTML, CSS, and JavaScript. Each section includes practical examples and step-by-step instructions to build a complete webpage from scratch.
