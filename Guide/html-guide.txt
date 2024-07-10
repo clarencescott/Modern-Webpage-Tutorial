@@ -1,0 +1,127 @@
+HTML Guide: Building the Structure of Your Webpage
+Objective: Create the HTML structure for a modern webpage tutorial. This guide will walk you through creating the basic HTML structure, including a header, main content sections, and a footer.
+
+Create Files
+
+Create index.html for your HTML content.
+Create style.css for your CSS styles.
+Create script.js for your JavaScript.
+Link CSS and JavaScript in HTML
+
+Ensure your HTML file links to your CSS and JavaScript files correctly.
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+Start with the DOCTYPE and HTML Tag
+
+The <!DOCTYPE html> declaration defines this document as HTML5.
+The <html> tag is the root element of an HTML page.
+
+
+<!DOCTYPE html>
+<html lang="en">
+Head Section
+
+The <head> element contains meta-information about the document.
+Include the charset, viewport settings, and link to your CSS file.
+html
+Copy code
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern Webpage</title>
+</head>
+
+
+Body Section
+
+The <body> element contains the content of the HTML document.
+Add the header section with a navigation menu.
+
+
+<body>
+    <header>
+        <h1>Modern Webpage Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="#html">HTML Basics</a></li>
+                <li><a href="#css">CSS Basics</a></li>
+                <li><a href="#js">JavaScript Basics</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+Main Content
+
+The <main> element contains the primary content of the document.
+
+Create sections for HTML, CSS, and JavaScript basics.
+
+
+    <main>
+
+        <section id="html">
+            <h2>HTML Basics</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language for creating webpages. It describes the structure of a web page.</p>
+        </section>
+
+        <section id="css">
+            <h2>CSS Basics</h2>
+            <p>CSS (Cascading Style Sheets) is used to style and layout web pages. It controls the color, font, and spacing of your content.</p>
+            <section id="colors">
+                <h2>Color Schemes</h2>
+                <p>This section demonstrates different ways to set colors in CSS.</p>
+                <div class="color-example">Example Color Box</div>
+            </section>
+            <section id="layout">
+                <h2>Layout Techniques</h2>
+                <p>This section shows different layout techniques using Flexbox and Grid.</p>
+                <div class="flex-container">
+                    <div class="flex-item">Flex Item 1</div>
+                    <div class="flex-item">Flex Item 2</div>
+                    <div class="flex-item">Flex Item 3</div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">Grid Item 1</div>
+                    <div class="grid-item">Grid Item 2</div>
+                    <div class="grid-item">Grid Item 3</div>
+                </div>
+            </section>
+        </section>
+
+        <section id="js">
+            <h2>JavaScript Basics</h2>
+            <p>JavaScript is a programming language that adds interactivity to your website. It can update and change both HTML and CSS.</p>
+            <button id="jsButton">Click Me!</button>
+            <section id="dom">
+                <h2>Working with the DOM</h2>
+                <p>The DOM (Document Object Model) allows JavaScript to interact with HTML Elements.</p>
+                <h4 id="domTest">Hi!</h4>
+                <section id="events">
+                    <h2>Event Listeners</h2>
+                    <p>Events are used to handle interactions in JavaSCript.</p>
+                    <h3>Toggle Event</h3>
+                    <button id="jsToggleBtn">Toggle Mode!</button>
+                </section>
+            </section>
+        </section>
+
+
+    </main>
+
+
+Footer Section
+
+The <footer> element contains footer information.
+
+
+    <footer>
+        <p>&copy; 2024 Modern Webpage Tutorial</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

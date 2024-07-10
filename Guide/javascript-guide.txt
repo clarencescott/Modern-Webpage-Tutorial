@@ -1,0 +1,38 @@
+JavaScript Guide: Adding Interactivity
+Objective: Add JavaScript to make the webpage interactive. This guide covers basic event listeners and a dark mode toggle.
+
+
+JavaScript Basics
+
+Add a click event listener to a button to show an alert.
+
+
+document.getElementById('jsButton').addEventListener('click', function(){
+    alert('Congratulations! Your JavaScript Works!!!');
+});
+
+
+Dark Mode Toggle
+
+Add an event listener to a button to toggle dark mode.
+
+
+const toggleDarkModeButton = document.getElementById('jsToggleBtn');
+
+toggleDarkModeButton.addEventListener('click', function(){
+    document.body.classList.toggle('dark-mode');
+    document.querySelectorAll('section').forEach(section => {
+        section.classList.toggle('dark-mode');
+    });
+    document.querySelector('header').classList.toggle('dark-mode');
+    document.querySelector('footer').classList.toggle('dark-mode');
+});
+
+
+Optional DOM Manipulation
+
+Change the text and style of an element (uncomment to use).
+
+
+// document.getElementById('domTest').innerText = 'Hello';
+// document.getElementById('domTest').style.color = 'red';

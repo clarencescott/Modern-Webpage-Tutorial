@@ -1,0 +1,173 @@
+CSS Guide: Styling Your Webpage
+Objective: Style the webpage created in the HTML guide using CSS. This guide covers basic styling, layout techniques, and a dark mode toggle.
+
+
+Basic Body Styling
+
+Set the font, margin, padding, background color, and text color.
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 216, 255);
+    color: #333;
+}
+
+
+Header Styling
+
+Style the header with a background color, text color, and padding.
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+Main Content Styling
+
+Add padding and margin to the main content and sections.
+
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px black;
+}
+
+h2 {
+    color: #333;
+}
+
+
+Color Example Styling
+
+Style the color example box with a gradient background and text color.
+
+
+.color-example {
+    background: linear-gradient(to left, blue, rgb(0, 255, 115));
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+
+Flexbox and Grid Layout Styling
+
+Use flexbox for flexible layout and grid for a grid-based layout.
+
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.flex-item {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px;
+}
+
+.grid-item {
+    background-color: orange;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+Footer Styling
+
+Style the footer with background color, text color, and padding.
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+Responsive Design
+
+Adjust flexbox and grid layout for smaller screens.
+
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+Dark Mode Styling
+
+Add styles for dark mode to change background and text colors.
+
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header.dark-mode, footer.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+section.dark-mode {
+    background-color: #797979;
+    color: #e0e0e0;
+}
