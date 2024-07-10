@@ -43,7 +43,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 **Keywords:** web development, build a webpage, HTML CSS JavaScript.
 
-**Learn More:** [Building a Complete Webpage from Scratch](link-to-complete-webpage-guide) italic***Not setup yet
+**Learn More:** [Building a Complete Webpage from Scratch](link-to-complete-webpage-guide) *Not setup yet*
 
 ### How to Use This Repository
 
