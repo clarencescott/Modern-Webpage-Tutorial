@@ -7,3 +7,19 @@
 document.getElementById('jsButton').addEventListener('click', function(){
     alert('Congratulations! Your JavaScript Works!!!');
 });
+
+// document.getElementById('domTest').innerText = 'Hello';
+// document.getElementById('domTest').style.color = 'red';
+
+// Dark Mode Toggle Event
+const toggleDarkModeButton = document.getElementById('jsToggleBtn');
+
+toggleDarkModeButton.addEventListener('click', function(){
+    document.body.classList.toggle('dark-mode');
+    //Creating the query assignment for each section
+    document.querySelectorAll('section').forEach(section =>{
+        section.classList.toggle('dark-mode');
+    });
+    document.querySelector('header').classList.toggle('dark-mode');
+    document.querySelector('footer').classList.toggle('dark-mode');
+})
