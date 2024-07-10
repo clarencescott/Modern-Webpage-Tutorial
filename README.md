@@ -10,7 +10,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 3. [JavaScript Basics and Interactivity](#javascript-basics-and-interactivity)
 4. [Building a Complete Webpage from Scratch](#building-a-complete-webpage-from-scratch)
 
-### Beginner's Guide to HTML
+### 1. Beginner's Guide to HTML
 
 **Content:** A comprehensive guide for beginners on HTML basics. This section includes practical examples and explains how to build a simple webpage.
 
@@ -19,7 +19,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 **Learn More:** [Beginner's Guide to HTML](Guide/html-guide.txt)
 [HTML BOOK](https://astroclare.gumroad.com/l/ithtml)
 
-### CSS Styling Techniques
+### 2. CSS Styling Techniques
 
 **Content:** Show different CSS styling techniques and how to apply them to a webpage. This section includes examples of color schemes, layouts, and responsive design.
 
@@ -28,7 +28,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 **Learn More:** [CSS Styling Techniques](Guide/css-guide.txt)
 [CSS BOOK](https://astroclare.gumroad.com/l/itcss)
 
-### JavaScript Basics and Interactivity
+### 3. JavaScript Basics and Interactivity
 
 **Content:** Explain JavaScript basics and demonstrate how to add interactivity to a webpage with simple JavaScript functions.
 
@@ -37,7 +37,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 **Learn More:** [JavaScript Basics and Interactivity](Guide/javascript-guide.txt)
 [JavaScript BOOK](https://astroclare.gumroad.com/l/itjs)
 
-### Building a Complete Webpage from Scratch
+### 4. Building a Complete Webpage from Scratch
 
 **Content:** A step-by-step guide to building a complete webpage using HTML, CSS, and JavaScript. This section shows how these technologies work together to create a functional and styled webpage.
 
