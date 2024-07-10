@@ -16,7 +16,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 **Keywords:** HTML tutorial, HTML for beginners, learn HTML.
 
-**Learn More:** [Beginner's Guide to HTML](link-to-html-guide)
+**Learn More:** [Beginner's Guide to HTML](link-to-html-guide-html-guide)
 [HTML BOOK](https://astroclare.gumroad.com/l/ithtml)
 
 ### CSS Styling Techniques
