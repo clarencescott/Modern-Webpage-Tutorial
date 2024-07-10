@@ -16,7 +16,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 **Keywords:** HTML tutorial, HTML for beginners, learn HTML.
 
-**Learn More:** [Beginner's Guide to HTML](link-to-html-guide-html-guide)
+**Learn More:** [Beginner's Guide to HTML](Guide/html-guide.txt)
 [HTML BOOK](https://astroclare.gumroad.com/l/ithtml)
 
 ### CSS Styling Techniques
@@ -25,7 +25,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 **Keywords:** CSS tutorial, CSS for beginners, web design.
 
-**Learn More:** [CSS Styling Techniques](link-to-css-guide)
+**Learn More:** [CSS Styling Techniques](Guide/css-guide.txt)
 [CSS BOOK](https://astroclare.gumroad.com/l/itcss)
 
 ### JavaScript Basics and Interactivity
@@ -34,7 +34,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 **Keywords:** JavaScript tutorial, learn JavaScript, web development.
 
-**Learn More:** [JavaScript Basics and Interactivity](link-to-js-guide)
+**Learn More:** [JavaScript Basics and Interactivity](Guide/javascript-guide.txt)
 [JavaScript BOOK](https://astroclare.gumroad.com/l/itjs)
 
 ### Building a Complete Webpage from Scratch
