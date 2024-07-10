@@ -43,10 +43,56 @@ section{
 h2{
     color: #333;
 }
+/*This is the CSS Colors Styling Section*/
+.color-example{
+    background:linear-gradient(to left, blue,rgb(0, 255, 115));
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+/* This is the Flexbox and Flex Item styling section of my webpage*/
+.flex-container{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+.flex-item{
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+}
+/*This is the Grid and Grid Item styling section of my webpage*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 20px;
+}
+.grid-item{
+    background-color: orange;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
 /*This is the footer styling section of my webpage*/
 footer{
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: #fff;
+}
+/* This is the responsive layout for my webpage*/
+@media (max-width:600px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
 }
