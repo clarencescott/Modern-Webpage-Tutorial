@@ -43,13 +43,13 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 **Keywords:** web development, build a webpage, HTML CSS JavaScript.
 
-**Learn More:** [Building a Complete Webpage from Scratch](link-to-complete-webpage-guide)
+**Learn More:** [Building a Complete Webpage from Scratch](link-to-complete-webpage-guide) italic***Not setup yet
 
 ### How to Use This Repository
 
 1. **Clone the repository:** 
    bash
-   git clone https://github.com/clarencescott/repo.git
+   git clone https://github.com/clarencescott/Modern-Webpage-Tutorial
 
 
 
