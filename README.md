@@ -17,6 +17,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 **Keywords:** HTML tutorial, HTML for beginners, learn HTML.
 
 **Learn More:** [Beginner's Guide to HTML](link-to-html-guide)
+[HTML BOOK](https://astroclare.gumroad.com/l/)
 
 ### CSS Styling Techniques
 
@@ -25,6 +26,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 **Keywords:** CSS tutorial, CSS for beginners, web design.
 
 **Learn More:** [CSS Styling Techniques](link-to-css-guide)
+[CSS BOOK](https://astroclare.gumroad.com/l/itcss)
 
 ### JavaScript Basics and Interactivity
 
@@ -33,6 +35,7 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 **Keywords:** JavaScript tutorial, learn JavaScript, web development.
 
 **Learn More:** [JavaScript Basics and Interactivity](link-to-js-guide)
+[JavaScript BOOK](https://astroclare.gumroad.com/l/itjs)
 
 ### Building a Complete Webpage from Scratch
 
@@ -52,3 +55,9 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 **Contributing**
 We welcome contributions! If you have any suggestions or improvements, please create an issue or submit a pull request.
+
+Clarence Scott - scottclarence5@gmail.com
+Project Link: https://github.com/clarencescott/Modern-Webpage-Tutorial
+
+## License
+Distrubuted under the MIT License. See [LICENSE.txt](https://github.com/clarencescott/license.txt) for more information
