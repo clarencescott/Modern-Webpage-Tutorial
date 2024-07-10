@@ -96,3 +96,16 @@ footer{
         grid-template-columns: 1fr;
     }
 }
+/* Dark mode styles*/
+body.dark-mode{
+    background-color: #121212;
+    color: #e0e0e0;
+}
+header.dark-mode, footer.dark-mode{
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+section.dark-mode{
+    background-color: #797979;
+    color: #e0e0e0;
+}
