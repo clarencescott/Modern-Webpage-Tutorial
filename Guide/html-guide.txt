@@ -42,6 +42,8 @@ Add the header section with a navigation menu.
 
 
 <body>
+    <!--Creating a Button to go back to top of web page.-->
+    <a href="#" id="bToTop">&UpArrow;Top</a>
     <header>
         <h1>Modern Webpage Tutorial</h1>
         <nav>
