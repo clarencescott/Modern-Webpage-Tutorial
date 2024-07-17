@@ -26,6 +26,36 @@
         <section id="html">
             <h2>HTML Basics</h2>
             <p>HTML (HyperText Markup Language) is the standard markup language for creating webpages. It describes the structure of a web page.</p>
+            <section id="elements">
+                <h2>Elements</h2>
+                <p>Elements are the building blocks of a webpage. They consist of: a start tag, the content, end tag. These contain text, elements or both.</p>
+                <section id="form">
+                    <h2>Secure coding practice in Forms</h2>
+                    <form action="https://formsubmit.co/astroclaregaming@gmail.com" method="post">
+                        <!--Input Validation Example ensuring the username is alphanumeric only.-->
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" pattern="[a-zA-Z0-9]+" title="Only alphanumeric characters are allowed." required>
+                        <small>Only alphanumeric characters are allowed.</small>
+
+                        <!--Input sanitization example for emails-->
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <small>Enter a valid email address.</small>
+
+                        <!--Password handling: setting the length and complexity.-->
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}" title="Must contain at least one number, one uppercase and one lowercase letter, and at least 8 to 20 characters." required>
+                        <small>Must contain at least one number, one uppercase and one lowercase letter, and at least 8 to 20 characters.</small>
+                        
+                        <!--Secure data Handling: Submission.-->
+                        <label for="comments">Comments:</label>
+                        <textarea name="comments" id="comments" required></textarea>
+                        <small>Avoid entering sensitive information here.</small>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </section>
+            </section>
         </section>
         <section id="css">
             <h2>CSS Basics</h2>
