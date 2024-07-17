@@ -5,9 +5,9 @@ Welcome to the Web Development Beginner's Guide! This repository is designed to 
 
 ### Table of Contents
 
-1. [Beginner's Guide to HTML](#beginners-guide-to-html)
-2. [CSS Styling Techniques](#css-styling-techniques)
-3. [JavaScript Basics and Interactivity](#javascript-basics-and-interactivity)
+1. [Beginner's Guide to HTML](Guide/html-guide.txt)
+2. [CSS Styling Techniques](Guide/css-guide.txt)
+3. [JavaScript Basics and Interactivity](Guide/javascript-guide.txt)
 4. [Building a Complete Webpage from Scratch](#building-a-complete-webpage-from-scratch)
 
 ### 1. Beginner's Guide to HTML
