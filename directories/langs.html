@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/styles/langs.css">
+    <title>Modern Webpage</title>
+</head>
+<body>
+    <!--Creating a Button to go back to top of web page.-->
+    <a href="#" id="bToTop">&UpArrow;Top</a>
+    <!--This is the header section of my webpage.-->
+    <header>
+        <h1>Modern Webpage Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Web Dev Basics</a></li>
+                <li><a href="#c-sharp">C# Basics</a></li>
+                <button id="jsToggleBtn">Toggle Mode!</button>
+            </ul>
+        </nav>
+    </header>
+    <!--This is the main section of my webpage.-->
+    <!--This will contain 3 sections: html, css, javascript.-->
+    <main>
+        <section id="c-sharp">
+            <h2>C# Basics</h2>
+            <p>C# (CSharp) is a powerful coding language used to create web apps, desktop software, video games and much more!</p>
+            <section id="intro">
+                <h2>Intro to C# (C-Sharp)</h2>
+                <p>A C# program is structured into classes, methods, statements, expressions, and variables. At its core, every C# application starts with a Main method, which serves as the entry point for the program execution.</p>
+                <p>The <u>syntax</u> of a C# program is as follows:</p>
+                <p>using System; <strong>&leftarrow; This is the </strong>    <br><br>
+
+                    class HelloWorld <strong> &leftarrow; This is the <i>class</i> that names the title of our program, beginning the structure.</strong>  <br><br>
+                    {<br><br>
+                        static void Main() <strong> &leftarrow; This is the <i>method</i> that is used to start our program and holds the body for our programs.</strong> <br>
+                        {<br><br>
+                            Console.WriteLine("Hello, World!");<strong> &leftarrow; This is the <i>class</i> "Console" line of code that prints out to the command line or terminal.</strong>  <br>
+                        } <br><br>
+                    } <strong> &leftarrow;  This is the Closing Brace for the entire program.</strong> </p>
+            </section>
+        </section>
+    </main>
+    <!--This the footer section.-->
+    <footer><p>&copy; 2024 Modern Webpage Tutorial</p></footer>
+    <script src="script.js"></script>
+    <script>// Dark Mode Toggle Event
+        const toggleDarkModeButton = document.getElementById('jsToggleBtn');
+        
+        toggleDarkModeButton.addEventListener('click', function(){
+            document.body.classList.toggle('dark-mode');
+            //Creating the query assignment for each section
+            document.querySelectorAll('section').forEach(section =>{
+                section.classList.toggle('dark-mode');
+            });
+            document.querySelector('header').classList.toggle('dark-mode');
+            document.querySelector('footer').classList.toggle('dark-mode');
+        })
+        </script>
+</body>
+</html>
