@@ -6,3 +6,7 @@ body{
 body.dark-mode{
     background:linear-gradient(darkblue,darkgoldenrod);
 }
+
+#c-sharp{
+    display: block;
+}
