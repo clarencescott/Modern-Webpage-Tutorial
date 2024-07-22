@@ -42,6 +42,43 @@
                     } <strong> &leftarrow;  This is the Closing Brace for the entire program.</strong> </p>
                     <video src="/_images/Intro_CS.mov" controls height="200px" width="600px"></video>
             </section>
+            <section id="dvo">
+                <h2>Data Types, Variables, Operations, Type Conversion </h2>
+                <p>In C#, primitive data types represent the most basic types of data that the language supports. These include: Integer, Floating-Point, Character, Boolean Types. Each data type has specific ranges and uses, depending on the size and precision required for storing data.</p>
+                <section id="variables">
+                    <h2>Variables</h2>
+                    <p>Variables in C# are containers that hold data of a specific type. To declare a variable, you specify the type followed by the variable name. Variables must be initialized before they can be used.</p>
+                    <p>int cost; &leftarrow; this is a declaration. <br>
+                        cost = 200; &leftarrow; this is an initialization.
+                        <br><br>
+                        Console.WriteLine(cost); &leftarrow; 
+                    </p>
+                    <p>You are able to declare and initialize in the same line of code:</p>
+                    <p>int tirePress = 28; &leftarrow; variable tirePress has been declared and initialized. <br> Console.WriteLine(tirePress);</p>
+                    <video src="/_images/DVO.mov" controls height="200px" width="600px"></video>
+                </section>
+                <section id="operations">
+                    <h2>Operations</h2>
+                    <p>Operators are symbols that perform operations on variables and values. C# supports various types of operators:</p>
+                    <ul>
+                        <li>Arithmetic Operators: +, -, *, /, %</li>
+                        <li>Relational Operators: ==, !=, <, >, <=, >=</li>
+                        <li>Logical Operators: &&, ||, !</li>
+                        <li>Assignment Operators: =, +=, -=, *=, /=, %=</li>
+                        <li>Increment and Decrement Operators: ++, --</li>
+                        <li>Bitwise Operators: &, |, ^, ~, <<, >></li>
+                    </ul>
+                </section>
+                <section id="type-conversion">
+                    <h2>Type Conversion</h2>
+                    <p>Type conversion (also known as casting) in C# is the process of converting a value from one data type to another. Implicit conversion is done automatically by the compiler when there is no risk of data loss. Explicit conversion requires explicit casting and may involve data loss.</p>
+                    <p>int num1 = 10;<br><br>
+                        double num2 = 5.5;<br><br>
+                        
+                        int result = num1 + (int)num2; // Explicit casting from double to int</p>
+                        <video src="/_images/TC.mov" controls height="200px" width="600px"></video>
+                </section>
+            </section>
         </section>
     </main>
     <!--This the footer section.-->
