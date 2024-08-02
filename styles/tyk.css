@@ -1,0 +1,110 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(rgb(0, 225, 255),white);
+    color: #333;
+}
+/*This is the header styling section of my webpage*/
+header{
+    background-color: #fff;
+    color: #333;
+    padding: 1em 0;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin:0 10px;
+}
+nav ul li a{
+    color: #6a6a6a;
+    text-decoration: none;
+}
+/* This is the main styling section of my webpage*/
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+/*Score Container Styling*/
+.score-container{
+    display: flex;
+}
+/*Test Container Styling Section*/
+.test-container{
+    height: 75vh;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+/* Test Question Styling Section*/
+.test-question{
+    padding: 30px 20px;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+}
+.submission{
+    display: flex;
+    gap: 5px;
+    width: inherit;
+    justify-content: space-between;
+}
+.submission button{
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Individual Button Styling*/
+.prev, .next{
+    background-color: white;
+    border: solid 1px black;
+}
+.prev:hover, .next:hover{
+    background-color: grey;
+    color: white;
+    border: solid 1px rgb(255, 255, 255);
+}
+.notes{
+    background-color: rgb(255, 195, 127);
+    border: solid 1px #888;
+    border-radius: 3px;
+}
+.notes:hover{
+  
+    background-color: rgb(250, 171, 80);
+}
+.noteBox textarea{
+    height: 200px;
+    width: 300px;
+    display: none;
+}
+.submit{
+    background-color: rgb(125, 236, 125);
+    border: solid 1px black;
+}
+.submit:hover{
+    background-color: rgb(80, 219, 80);
+}
+/*This is the footer styling section of my webpage*/
+footer{
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+}

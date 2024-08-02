@@ -180,3 +180,12 @@ form button{
 form button:hover{
     background-color: #e797ff;
 }
+/*Test your knowledge index.html nav button styling*/
+.tyk-hero{
+    background-color: rgb(213, 168, 255);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.tyk-hero a{
+    color: white;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/tyk.css">
+    <title>Test Your Knowledge</title>
+</head>
+<body>
+    <!--This is the header section of my webpage.-->
+    <header>
+        <h1>Test Your Knowledge !</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/directories/langs.html">Other Programming Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--This is the main section of the testing webpage.-->
+    <!--This main section will contain-->
+    <main>
+        <div class="test-container" id="test-container">
+            <div class="score-container"><div id="score"></div>/10</div>
+            <!--Test Question container holds the question and the 4-5 answers per question.-->
+            <div class="test-question">
+                <h3>Question 1: Are you ready?</h3>
+                <div class="answer-container">
+                    <input type="radio" name="question" id="answer-c" class="correct">
+                    <label for="answer1">Yes</label><br>
+                    <input type="radio" name="question" id="answer-i" class="incorrect">
+                    <label for="answer2">No</label><br>
+                    <input type="radio" name="question" id="answer-i" class="incorrect">
+                    <label for="answer3">Maybe</label><br>
+                    <input type="radio" name="question" id="answer-i" class="incorrect">
+                    <label for="answer4">Not Sure</label>
+                </div>
+                <div class="noteBox"><textarea name="noteBox" id="noteBox"></textarea></div>
+            </div>
+            <!--This menu allows users to go to the previous question to review terms, submit their answers and/or skip to the next question.-->
+            <div class="submission" id="submission">
+                <button class="prev">Previous</button><button class="notes" onclick="noteBox()">Notes</button><button id="submission" class="submit" onclick="submission()">Submit</button><button class="next">Next</button>
+            </div>
+            <!--This container will output the result of their answer (correct, incorrect)-->
+            <div class="result-output" id="result-output"></div>
+        </div>
+    </main>
+    <!--This the footer section.-->
+    <footer><p>&copy; 2024 Modern Webpage Tutorial</p></footer>
+    <script src="/scripts/tyk.js"></script>
+</body>
+</html>
